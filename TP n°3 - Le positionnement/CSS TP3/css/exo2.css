@@ -1,0 +1,84 @@
+/* TABLE DES CONTENUS   */
+/* -------------------- */
+/*                      */
+/* 1 - Global           */
+/* 2 - Header           */
+/* 3 - Main             */
+/*                      */
+/* -------------------- */
+
+
+/* 1 - Global           */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+/* 2 - Header           */
+nav li img{
+    margin: 10px;
+    height: 60px;
+    background-color: white;
+    float:right
+}
+
+nav ul{
+    max-width: 1150px;
+    margin: auto;
+    text-align: right;
+    list-style-type: none;
+    background-color: black;
+    height: 80px;
+} 
+
+header nav li, header nav a{
+    display: inline-block;
+}
+
+header nav a {
+    color: white;
+    margin-top: 15px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+header{
+    background-color: black;
+}
+
+
+/* 3 - Main             */
+h1,h2{
+    margin: 40px 0;
+}
+
+main{
+    max-width: 1150px;
+    margin: auto;
+}
+
+main .text{
+    text-align: justify;
+}
+
+main img{
+    width: 300px;
+}
+
+.imageFlottanteDroite{
+    float: right;
+    /*margin-right: 20px;*/ /* non demander mais plus esthethique 
+    pour eviter que le texte colle à la photo*/
+}
+
+.imageFlottanteGauche{
+    float: left;
+    /*margin-left: 20px;*//* non demander mais plus esthethique 
+    pour eviter que le texte colle à la photo*/
+}
+
+
+
+

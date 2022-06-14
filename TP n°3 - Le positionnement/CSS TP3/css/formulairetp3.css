@@ -1,0 +1,85 @@
+/* TABLE DES CONTENUS   */
+/* -------------------- */
+/*                      */
+/* 1 - Global           */
+/* 2 - Header           */
+/* 3 - Main             */
+/* 4 - Formulaire       */
+/*                      */
+/* -------------------- */
+
+/* 1 - Global */
+*{
+    margin: 0;
+    border-radius: 8px;
+}
+
+body{
+    font-family: sans-serif;
+    max-width: 750px;
+    margin: auto;
+    
+}
+
+/* 2 - Header */
+h1{
+
+    color: white;
+    max-width: 700px;
+    margin: 50px auto;
+    padding-top: 50px;
+}
+
+div{
+    background-color: #379E54;
+    position: relative;
+}
+
+
+header img{
+    top: 30px;
+    right: 20px;
+    width : 8%;
+    position: absolute;
+    filter: brightness(500%);
+}
+
+/* 3 - Main */
+main{
+
+    max-width: 750px;
+    margin: auto;
+}
+
+/* 4 - Formulaires */
+form{
+    max-width: 700px;
+    margin: auto;
+}
+
+form input, 
+form textarea{
+    font-size: 25px;
+    border: none;
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form textarea{
+    resize: none;
+    height: 300px;
+}
+
+input.envoi{
+    background-color: white;
+    border: none;
+    color: #777777;
+    cursor: pointer;
+}
+
+
+
+
+

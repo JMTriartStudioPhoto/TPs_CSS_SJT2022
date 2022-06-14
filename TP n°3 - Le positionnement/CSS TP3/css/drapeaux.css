@@ -1,0 +1,229 @@
+/* --- TABLE DES STYLES --- */
+/*                          */
+/* 1 - Global               */
+/* 2 - Body                 */
+/*                          */
+/* ------------------------ */
+
+
+/* Drapeau Francais */
+/* 1 - Global       */
+*{
+    margin: 0;
+}
+
+/* 2 - Body                 */
+#france{
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    position: relative;
+}
+
+#france::before, #france::after{
+    content:"";
+    width: 33%;
+    position: absolute;
+
+    top: 0px;
+    height: 200px;
+    background-color: #002496;
+}
+
+#france::before{
+    left: 0px;
+    background-color: #002496;
+}
+
+#france::after{
+    left: 200px;
+    background-color: #ee293a;
+}
+
+
+/* Drapeau allemagne */
+#allemagne{
+    width: 300px;
+    height: 200px;
+    top: 30px;
+    border: 2px solid rgb(8, 8, 8);
+    background-color: black;
+    position: relative;
+}
+
+#allemagne::before, #allemagne::after{
+    content:"";
+    width: 300px;
+    left: 0px;
+
+    height: 33%;
+
+    position: absolute;
+}
+
+#allemagne::before{
+    top: 67px;
+    background-color: #de0000;
+}
+
+#allemagne::after{
+    top: 133px;
+    background-color: #fece00;
+}
+
+
+/* Drapeau Japon */
+#japon{
+    width: 300px;
+    height: 200px;
+    top: 50px;
+    border: 2px solid black;
+    background-color: white;
+    position: relative;
+}
+
+#japon::before{
+    content:"";
+    border-radius: 70px;
+    width: 120px;
+    left: 80px;
+    right: 50px;
+    top: 40px;
+    height: 120px;
+    background-color: #ee1c25;
+    position: absolute;
+}
+
+
+/* Drapeau suisse   */
+/* j'ai mis le drapeau en carré car vous avez dit "carré" lors du cours */
+
+#suisse{
+    width: 300px;
+    height: 300px;
+    top: 80px;
+    border: 2px solid black;
+    background-color: red;
+    position: relative;
+}
+
+#suisse::before, #suisse::after{
+    content:"";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color : white;
+    position: absolute;
+}
+
+#suisse::before{
+
+    width: 16.66%;
+    height: 66%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#suisse::after{
+
+    width: 66%;
+    height: 16.66%;
+    top: 50%;
+    left: 50%;
+    transform: rotate(90deg);
+    /* je n'ai pas synthétisé la ligne suivante 
+    avec "#norvege::before" car la rotation à 90° ne s'affiche plus */
+    transform: translate(-50%, -50%);
+}
+
+
+/* Drapeau Norvege   */
+
+#norvege{
+    width: 300px;
+    height: 200px;
+    top: 120px;
+    border: 2px solid black;
+    background-color: #ef2c30;
+    position: relative;
+}
+
+#norvege::before, #norvege::after{
+    content:"";
+    background-color : #212d5d;
+    border: 10px solid white;
+    position: absolute;
+}
+
+#norvege::before{
+    width: 7%;
+    height: 100%;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+#norvege::after{
+    width: 100%;
+    height: 10%;
+    top: 45%;
+    left: 50%;
+    transform: rotate(90deg);
+    /* je n'ai pas synthétisé la ligne suivante 
+    avec "#norvege::before" car la rotation à 90° ne s'affiche plus */
+    transform: translate(-50%, -50%);
+}
+
+/* Drapeau Bénin */
+*{
+    margin: 0;
+}
+#benin{
+    width: 300px;
+    height: 200px;
+    top: 150px;
+    border: 2px solid black;
+    background-color: #018752;
+    position: relative;
+}
+
+#benin::before, #benin::after{
+    content:"";
+    width: 200px;
+    left: 100px;
+    height: 50%;
+    position: absolute;
+}
+
+#benin::before{
+    top: 0px;
+    background-color: #de0000;
+}
+
+#benin::after{
+    top: 100px;
+    background-color: #fece00;
+}
+
+/* Drapeau Cameroun */
+
+#cameroun{
+    width: 300px;
+    height: 200px;
+    top: 200px;
+    border: 2px solid black;
+    background: linear-gradient(90deg, rgba(0,122,94,1) 0%, rgba(0,122,94,1) 35%, rgba(206,17,39,1) 35%, rgba(206,17,39,1) 68%, rgba(253,209,22,1) 68%);
+    position: relative;
+}
+
+#cameroun::before{
+    content:"\002605";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    color: yellow;
+    position: absolute;
+}
+
